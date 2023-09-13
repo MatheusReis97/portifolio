@@ -93,3 +93,48 @@ hr {
     letter-spacing: 1PX;
 }
 
+
+
+
+/* Nav Projetos */
+
+
+.card-title{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.card-text{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.card-link{
+    font-style: italic;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+.card-link a{
+    margin-right: 10px;
+}
+
+/* Cards */
+.conj-icones{
+    padding: 0;
+    list-style: none;
+}
+
+.text-muted{
+    display: flex;
+}
+
+.icon-programacao{
+    width: 55px;
+    margin-right: 10px;
+}
+/* ---------------- */
