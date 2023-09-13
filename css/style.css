@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: #000000f8;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(110grad,black, white);
 }
 
 
