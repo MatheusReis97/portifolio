@@ -22,10 +22,16 @@ body{
     background-color: aqua;
 }
 
+#inicio, #sobremim, #skill, #projetos, #contatos{
+    height: 100vh;
+    
+}
+
 .apresentacao {
     text-align: left;
     padding: 4% 30% 0% 10%;
     font-size: 40px;
+    
 }
 
 .apresentacao h2{
@@ -60,12 +66,10 @@ hr {
 }
 .container{
  padding-bottom: 5%;
+ 
 }
 
-.minha-imagem {
-    width: 90%;
-  
-}
+/* SOBRE MIM */
 
 .sobre-texto{
     background-color: white;
@@ -73,8 +77,22 @@ hr {
     font-size: 30px;
     padding: 4%;
     border-radius: 2%;
-    margin-left: 10%;
+    text-align: justify;
+    text-align: center;
+    
+   
 }
+
+.minha-imagem{
+    text-align: center;
+}
+
+.imagem-perfil{
+    width: 50%;
+}
+
+/* -- FIM SOBRE MIM */
+
 /* Nav SKills */
 
 .skill {
@@ -95,7 +113,7 @@ hr {
     margin-top: 3%;
     letter-spacing: 1PX;
 }
-/* ------------ */
+/* -- FIM NAV Skills */
 
 
 
