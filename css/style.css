@@ -3,9 +3,18 @@ body{
     padding: 0;
     background-color: #000000f8;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background: linear-gradient(110grad,black, white);
+    background: linear-gradient(110grad,black, rgb(80, 78, 78));
 }
 
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    box-shadow: 10px 10px 15px black;
+    z-index: 1;
+    
+ 
+}
 
 #navbarNavAltMarkup{
    margin-left: 65%;
@@ -29,7 +38,7 @@ body{
 
 .apresentacao {
     text-align: left;
-    padding: 4% 30% 0% 10%;
+    padding: 15% 30% 0% 10%;
     font-size: 40px;
     
 }
@@ -64,22 +73,19 @@ hr {
     font-size: 50px;
     font-weight: bold;
 }
-.container{
- padding-bottom: 5%;
- 
-}
+
 
 /* SOBRE MIM */
 
 .sobre-texto{
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 24px;
     padding: 4%;
-    border-radius: 2%;
-    text-align: justify;
+    border-radius: 4%;
     text-align: center;
-    
+    margin-bottom: 100px ;
+    display: flow-root;
    
 }
 
@@ -88,7 +94,7 @@ hr {
 }
 
 .imagem-perfil{
-    width: 50%;
+    width: 30%;
 }
 
 /* -- FIM SOBRE MIM */
