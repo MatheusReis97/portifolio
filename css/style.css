@@ -176,3 +176,24 @@ hr {
 
 /* -------------- CONTANTOS  ---------  */
 
+.contato {
+    font-size: 100%;
+}
+
+.contato p {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 25%;
+}
+
+
+footer{
+    padding-top: 40px;
+    height: 45%;
+    background-color: black;
+    text-align: center;
+}
+
+
+footer a e
