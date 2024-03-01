@@ -189,11 +189,22 @@ hr {
 
 
 footer{
-    padding-top: 40px;
     height: 45%;
     background-color: black;
     text-align: center;
+    color: white;
+
+}
+
+footer i {
+    margin: 10px;
+    font-size: 30px;
+    color: white;
 }
 
 
-footer a e
+
+.social-icons{
+    padding: 0.5%;
+   
+}
