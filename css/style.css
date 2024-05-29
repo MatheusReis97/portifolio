@@ -1,14 +1,10 @@
 body{
+    
     margin: 0;
     padding: 0;
     background-color: #000000f8;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: linear-gradient(110grad,black, rgb(170, 161, 39));
-}
-
-
-.container-fluid{
- 
 }
 
 .navbar{
@@ -20,7 +16,7 @@ body{
 
 #navbarNavAltMarkup{
   
-  margin-left: 65%;
+  margin-left: 70%;
   background-color: white;
   
    
@@ -45,21 +41,38 @@ button .navbar-toggler{
 
 .apresentacao {
     text-align: left;
-    padding: 15% 30% 0% 10%;
-    font-size: 40px;
+    padding: 20% 2% 10% 2%;
+    width: 100%;
+    height: 100%;
     
 }
 
-.apresentacao h2{
-    font-size: 200%;
+.apresentacao h1{
     color: rgba(247, 213, 18, 0.979);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1%
+    font-size: 5vw; /* Tamanho de fonte proporcional à largura da viewport */
+    line-height: 1.1;
+    word-break: break-word;
 }
+@media (max-width: 768px) {
+  .apresentacao h1 {
+    margin-top: 40%;
+    margin-bottom: 10%;
+    font-size: 11vw; /* Ajuste do tamanho da fonte para telas menores */
+  }
+}
+@media (max-width: 576px) {
+  .apresentacao h1 {
+    margin-top: 40%;
+    margin-bottom: 10%;
+    font-size: 13vw; /* Ajuste do tamanho da fonte para telas muito pequenas */
+  }
+}
+    
+
 
 .imagens{
-    padding: 0 0 4% 10%;
+    /* padding: 0 0 4% 10%; */
 }
 .imagens img {
  width: 10%;
@@ -115,16 +128,18 @@ hr {
 }
 
 .sub-skill{
-    font-weight: bold;
+    font-size: 25px;
     letter-spacing: 2px;
     text-align: center;
+    margin-bottom: 3%;
 }
 
 .soft-skills{
-    text-align: left;
-    padding-left: 20%;
+    text-align: center;   
+    
     margin-top: 3%;
-    letter-spacing: 1PX;
+    letter-spacing: 1px;
+    font-size: 80%;
 }
 /* -- FIM NAV Skills */
 
@@ -153,11 +168,31 @@ hr {
     display: flex;
 }
 
+.img-fluid{
+    margin-top: 70%;
+    margin-bottom: 30%;
+}
+
+.imgun{
+    margin-top: 30% !important;
+    margin-bottom: 0 !important;
+}
+
+.imgdupli{
+    margin-top: 0 !important;
+    margin-bottom: 20%;
+}
+
 .card-link a{
     margin-right: 10px;
 }
 
 /* Cards */
+
+.conj-div{
+    display: flex;
+}
+
 .conj-icones{
     padding: 0;
     list-style: none;
@@ -168,7 +203,7 @@ hr {
 }
 
 .icon-programacao{
-    width: 55px;
+    width: 15%;
     margin-right: 10px;
 }
 /* ---------------- FIM PROJETOS ---- */
