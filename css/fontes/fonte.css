@@ -1,4 +1,13 @@
 @font-face {
     font-family: 'trial-black2';
     src: url('NexaRustSans-Trial-Black2.ttf') format('truetype');
+
 }
+
+@font-face {
+    font-family: 'Graphica2';
+    src: url('TypoGraphica_demo.otf')format('opentype');
+
+}
+
+
